@@ -1,0 +1,85 @@
+/* FILEPATH: /Users/hughie876/Library/CloudStorage/GoogleDrive-hhenrydev@gmail.com/My Drive/Udemy/Projects-Web-BootCamp/Capstone/Project1/style.css */
+
+/* Reset default browser styles */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+p, h1, h2, body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #333;
+}
+
+/* Set a background color */
+body {
+  background-color: #f2f2f2;
+  margin: 10px;
+}
+
+/* Center the content */
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the heading */
+h1 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style the paragraph */
+p {
+  font-size: 16px;
+  color: #333;
+  margin: 10px;
+}
+
+/* Style the job titles */
+.job-title {
+  font-size: 20px;
+  margin: 10px;
+}
+
+/* Style the job descriptions */
+.job-description {
+  font-size: 16px;
+  margin: 10px;
+}
+
+/* Style the educational certs */
+.ed-certs {
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+/* Style the educational titles */
+.ed-title {
+    font-style: normal;
+
+}
+
+/* Style the skills list */
+ul .skills-list li {
+  display: inline;
+  float: right;
+}
+
+#resume-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+#resume-header img {
+  width: 100px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 10px;
+}
